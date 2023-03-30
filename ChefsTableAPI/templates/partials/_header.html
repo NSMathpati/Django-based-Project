@@ -1,0 +1,13 @@
+{% load static %}
+<header>
+  <img src="{% static 'img/logo.png' %}" />
+</header>
+<nav>
+  <ul>
+    <li><a href="{% url 'ChefsTableAPI/home' %}">Home</a></li>
+    <li><a href="{% url 'ChefsTableAPI/about' %}">About</a></li>
+    <li><a href="{% url 'ChefsTableAPI/menu' %}">Menu</a></li>
+    <li><a href="{% url 'ChefsTableAPI/menu' %}">Book</a></li>
+    <li><a href="{% url 'ChefsTableAPI/bookings' %}">Reservations</a></li>
+  </ul>
+</nav>
