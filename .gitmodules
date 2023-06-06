@@ -1,3 +1,3 @@
 [submodule "ChefsTable"]
-    path = ChefsTable_website
+    path = Django-based-Project
     url = https://github.com/NSMathpati/Django-based-Project.git
