@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "ChefsTable_website/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "ChefsTable_website/wsgi.py"
+      }
+    ]
+}
